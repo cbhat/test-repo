@@ -1,0 +1,38 @@
+---
+title: "Easy method of calculating Moving Averages"
+
+---
+## Background
+
+There is a wealth of financial data including those of stock prices available in many websites.
+
+As a serious student of the stock market, you might want to analyze this data more thoroughly
+yourself. for this you will need your own set of tools that you might later want to customize.
+Calculating moving averages of stock prices should be one such tool in your arsenal.
+
+## Moving Average Tool Details
+
+A simple tool has been created to calculate moving averages for a given stock dataset.
+This tool plots both the original timeseries dataset as well as the moving average for the data
+in a single plot.
+The user can change the size of the moving average window and visually see how the plot for the moving average
+changes.
+
+
+## Using the Tool
+
+The first step is to get some data. There are many methods to download historical stock data.
+You can refer to some of them here.
+(http://www.quantshare.com/sa-43-10-ways-to-download-historical-stock-quotes-data-for-free)
+
+Once you have your data, create a csv file with only the date and the ending stock quote
+for any stock or index.
+
+
+Now you are ready to create the moving average!
+
+
+Upload the CSV file you had created earlier.
+You can select the moving average window( in number of days ) as the second input parameter.
+As you change the second parameter, the corresponding moving average changes dynamically.
+
